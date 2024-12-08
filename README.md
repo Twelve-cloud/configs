@@ -1,29 +1,28 @@
-# Данный репозиторий содержит мои конфигурации.
-# Тут содержится описания для того, чтобы конфигурация работала должным образом.
+# Данный репозиторий содержит мои конфигурации. Тут содержится описания для того, чтобы конфигурация работала должным образом.
 
-## * bashrc
-    1. Просто скопируйте .bashrc в ваш домашний каталог.
+## bashrc
+    1. Просто скопируйте `.bashrc` в ваш домашний каталог.
 
-## * vimrc
-    1. Скопируйте .vimrc в ваш домашний каталог;
-    2. Скачайте менеджер пакетов vundle *git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim*;
-    3. Войдите в vim и выполните *PluginInstall* и дождитесь установки всех плагинов;
+## vimrc
+    1. Скопируйте `.vimrc` в ваш домашний каталог;
+    2. Скачайте менеджер пакетов vundle `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`;
+    3. Войдите в vim и выполните `PluginInstall` и дождитесь установки всех плагинов;
     4. Установите NERDTree совместимые шрифты:
-        4.1 Склонируйте репозиторий с шрифтами *git clone --depth=1 https://github.com/ryanoasis/nerd-fonts.git*;
-        4.2 Выполните *./install.sh* для установки шрифтов;
+        4.1 Склонируйте репозиторий с шрифтами `git clone --depth=1 https://github.com/ryanoasis/nerd-fonts.git`;
+        4.2 Выполните `./install.sh` для установки шрифтов;
         4.3 Поменяйте шрифт в терминале на NERDTree совместимый шрифт.
-    5. После установки плагинов, перейдите в каталог <u>~/.vim/bundle/vim-flake8</u>:
-        5.1 Склонируйте теги: *git fetch --all --tags*;
-        5.2 Создайте ветку из тега 1.5 и перейдите в нее *git checkout tags/1.5 -b 1.5*
-    6. Перейдите в каталог <u>~/.vim/bundle/black</u>:
-        6.1 Склонируйте теги: *git fetch --all --tags*;
-        6.2 Создайте ветку из тега 23.9.1 и перейдите в нее *git checkout tags/23.9.1 -b 23.9.1*.
+    5. После установки плагинов, перейдите в каталог `~/.vim/bundle/vim-flake8`:
+        5.1 Склонируйте теги: `git fetch --all --tags`;
+        5.2 Создайте ветку из тега 1.5 и перейдите в нее `git checkout tags/1.5 -b 1.5`.
+    6. Перейдите в каталог `~/.vim/bundle/black`:
+        6.1 Склонируйте теги: `git fetch --all --tags`;
+        6.2 Создайте ветку из тега 23.9.1 и перейдите в нее `git checkout tags/23.9.1 -b 23.9.1`.
     7. Если ваш терминал поддерживает только 256 цветов, то выполните:
-        7.1 Склонируйте репозитория *git clone https://github.com/lifepillar/vim-solarized8.git*;
-        7.2 Выполните скрипт замены цветов для поддержка цветовой схемы solarized8 *sh /path/to/scripts/solarized.sh*.
+        7.1 Склонируйте репозитория `git clone https://github.com/lifepillar/vim-solarized8.git`;
+        7.2 Выполните скрипт замены цветов для поддержка цветовой схемы solarized8 `sh /path/to/scripts/solarized.sh`.
 
-## * settings.json
-    1. Скопируйте settings.json в настройки vscode;
+## settings.json
+    1. Скопируйте `settings.json` в настройки vscode;
     2. Установите следующеие плагины:
         2.1. Atom One Dark Theme;
         2.2 Auto Rename Tag;
