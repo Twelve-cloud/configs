@@ -20,6 +20,12 @@
     7. Если ваш терминал поддерживает только 256 цветов, то выполните:
         7.1. Склонируйте репозитория `git clone https://github.com/lifepillar/vim-solarized8.git`;
         7.2. Выполните скрипт замены цветов для поддержка цветовой схемы solarized8 `sh /path/to/scripts/solarized.sh`.
+    8. Если у вас возникают проблемы с плагином NERDTree, то выполните:
+        8.1. Перейдите в каталог `~/.vim/bundle/nerdtree-project-plugin/nerdtree_plugin`;
+        8.2. В файле project.vim замените строку 
+             command! -nargs=0 -complete=customlist,NERDTreeCompleteProjectNames NERDTreeProjectLoadFromCWD call g:NERDTreeProject.LoadFromCWD()
+             на 
+             command! -nargs=? -complete=customlist,NERDTreeCompleteProjectNames NERDTreeProjectLoadFromCWD call g:NERDTreeProject.LoadFromCWD()
 
 ## settings.json
     1. Скопируйте `settings.json` в настройки vscode;
